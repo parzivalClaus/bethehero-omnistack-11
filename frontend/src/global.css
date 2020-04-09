@@ -21,6 +21,7 @@ textarea {
 
 button {
   cursor: pointer;
+  background: none;
 }
 
 form input {
@@ -41,8 +42,9 @@ form input {
   color: #ffffff;
   font-weight: 700;
   margin-top: 16px;
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   font-size: 18px;
   line-height: 18px;
